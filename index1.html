@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Devlopment</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(8, 6, 44);
+            color: rgb(216, 190, 244);
+        }
+
+        header {
+            background-color: #117ae4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header nav {
+            text-align: right;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: 80%;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: white;
+            color: #6450f9;
+            padding: 15px;
+        }
+
+        h3{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--this is the header -->
+
+    <header>
+        <h1>Frontend Development</h1>
+        <nav>
+            <a href="#home" target="blank">home</a>|
+            <a href="#about" target="blank">about</a>|
+            <a href="#contact" target="blank">Contact</a>
+        </nav>
+    </header>
+
+    <!--this is the main content -->
+
+    <main>
+        <h3>what is Frontend Development?</h3>
+        <p>Front-end Development is the development or creation of a user interface using some markup languages and
+            other
+            tools. It is the development of the user side where only user interaction will be counted. It consists of
+            the
+            interface where buttons, texts, alignments, etc are involved and used by the user.</p><br>
+        <p style="color: white;"><b>Language used for Frontend development:</b></p>
+        <p>Languages for Front-end development
+            Front-end is the part that is accessible to the user only, It should be self-explanatory and must be
+            user-friendly and designed. so to achieve this we have some basic languages which can be used to create
+            interactive web pages. These are the basic needs for the creation of a web page.
+        </p>
+        <img src="/img1.jpg" alt="languages for Frontend development" width="500px">
+        <p>
+        <ul type="circle">
+            <li><b style="color: white";>HTML:</b> It was introduced in 1993 and currently at version HTML5, is a foundational language for
+                creating structured web content. It facilitates the creation of forms, tables, and structured data,
+                essential for input elements and organizing information on web pages. HTML's evolution continues to
+                shape the internet by
+                enabling developers to design interactive and accessible user interfaces across various platforms and
+                devices.
+            </li><br>
+            <li><b style="color: white";>CSS:</b> CSS, introduced on 17 December 1996 and currently at version CSS3, stands for Cascading
+                Style
+                Sheets. It complements HTML by styling web pages, managing colors, and enabling the creation of
+                responsive
+                designs. CSS empowers web developers to enhance user interfaces, ensuring visually appealing and
+                consistent layouts
+                across different devices and screen sizes.
+            </li><br>
+            <li><b style="color: white";>JavaScript:</b> ECMAScript, introduced on 4 December 1995 and currently at version ECMAScript 2022,
+                is a
+                lightweight, cross-platform, single-threaded programming language. It enables dynamic changes and event
+                handling in web development, making it essential for creating interactive and responsive user
+                interfaces.
+            </li>
+        </ul>
+        </p>
+        <hr>
+        <div>
+        <h3>Roadmap of frontend Development:</h3>
+        <img src="/image2.png" alt="roadmap of frontend Development" width="300px">
+        </div>
+        <hr>
+
+        <!--this is the form -->
+
+        <form action=" form.php" method="get" class="name">
+        <fieldset>
+            <legend><b>Fill the form to join the frontend development course</b></legend>
+
+            <div>
+                <label for="name">Enter your name:</label>
+                <input type="text" class="name" id="name"><br>
+                <label for="class">Your class:</label>
+                <label for="classidFE-IT">
+                    <input type="radio" value="FE-IT" name="class" id="classidFE-IT">FE-IT
+                </label>
+                <label for="classidSE-IT">
+                    <input type="radio" value="SE-IT" name="class" id="classidSE-IT">SE-IT
+                </label>
+                <label for="classidTE-IT">
+                    <input type="radio" value="TE-IT" name="class" id="classidTE-IT">TE-IT
+                </label>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="division">Your division:</label>
+                <label for="divisionidA">
+                    <input type="radio" value="A" name="division" id="divisionidA">A
+                </label>
+                <label for="divisionidB">
+                    <input type="radio" value="B" name="division" id="divisionidB">B
+                </label>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" pattern=".+@example\.com">
+            </div>
+            <br>
+            <label for="Terms & Conditions">
+                <input type="checkbox" value="Agree With Terms & Condtions" id="Terms & Conditions" class="red"
+                    name="Terms & Conditions">Agree With Terms & Condtions
+            </label>
+            <br>
+            <textarea name="explain" id="explain" rows="5" cols=""
+                placeholder="explain why do you want to join"></textarea>
+            <div>
+                <marquee behavior="scroll" direction="left">
+                    <a href="/161949-824623576_small.mp4" target="_blank" contlols autoplay loop>
+                    <button type=" submit">Cick me</button>
+                    </a>
+                </marquee>
+            </div>
+        </fieldset>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <h1><i>Thank you for visit Charbi ;)</i></h1>
+    </footer>
+</body>
+
+</html>
